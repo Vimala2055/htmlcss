@@ -1,0 +1,55 @@
+
+
+
+.parent{
+    display: flex;
+    flex-direction:column ;
+    width: 100%;
+    border: purple;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.parent>div{
+    width: auto;
+    border: 2px solid saddlebrown;
+    padding: 2%;
+    margin: 1%;
+    
+}
+h1{
+    color: purple;
+    border: red;
+}
+h2{
+    color: seagreen;
+    border: pink;
+}
+button{
+    color: red;
+    background-color: black;
+}
+
+img{
+    width: 100px;
+    height: 100px
+
+}
+
+
+.parent{
+
+    width: auto;
+    border: 2px solid pink;
+    padding: 2%;
+    margin: 1%;
+    
+    
+}
+/* mobile device min-width:320px max-width:480px */
+/* tablet min-width:481px amnd max-width:768px */
+/* above 1025-1200px */
+@media only screen and (min-width:481px) and (max-width:345px)
+.cared{
+display: flex;
+flex-direction: column;
